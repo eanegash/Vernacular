@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LanguageActivity">
+
+    <TextView
+        android:id="@+id/vernacular"
+        android:layout_width="249dp"
+        android:layout_height="65dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Vernacular"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <Button
+        android:id="@+id/tigrynaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tigryna"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <Button
+        android:id="@+id/englishButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="English"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="267dp" />
+
+    <Button
+        android:id="@+id/goBackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="19dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
