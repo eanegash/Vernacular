@@ -9,8 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Vernacular">
-        <activity android:name=".TigrynaActivity"></activity>
-        <activity android:name=".EnglishActivity" />
+        <activity android:name=".WordActivity"></activity>
         <activity android:name=".LanguageActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
